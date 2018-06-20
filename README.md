@@ -3,7 +3,10 @@
 Perl script to load times into Meet Central
 
 Usage:
-load_times.pl {--email=user@domain.com} {--pass=mypassword} {--debug} file-name
+load_times.pl {--email=user@domain.com} {--pass=mypassword} {--course=#} {--debug} file-name
+
+If supplying the --course=# option, the # will be the number Meet Central uses for that course. 
+(0 = SCY, 1 = SCM, 2 = LCM)
 
 You can edit the script and specify the email/password in there, or supply on the command line.
 Using the --debug option will print out a bunch of the intermediate web pages it interacts with.
