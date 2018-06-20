@@ -19,3 +19,7 @@ The file-name is mandatory, and currently this expects a tab-delimited file with
 If the 6th field is not numeric, the line will be ignored so you can add a header row like:
 First Last<tab>Gender<tab>Distance<tab>Stroke<tab>Time<tab>(Seconds)<tab>Swimmer ID
 
+Dependencies:
+- WWW::Mechanize (may have to be added on Linux, is included with Strawberry Perl on Windows)
+- HTTP::Request::Common (I think this is a core perl module?)
+
